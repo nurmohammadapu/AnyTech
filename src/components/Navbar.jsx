@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
 
             {/* Desktop Navbar */}
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden lg:flex items-center gap-8">
               <div className="group relative">
                 <Link to="/solutions" className="flex items-center gap-2 text-white">
                   Solutions
@@ -70,7 +70,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Navbar Toggle Button */}
-            <div className="md:hidden flex justify-between items-center">
+            <div className="lg:hidden flex justify-between items-center">
               <button 
                 className="text-white"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -78,13 +78,20 @@ const Navbar = () => {
                 ☰
               </button>
             </div>
+
+            {/* Contact Us Button */}
+            <button className="bg-blue-500 hidden lg:block border-2 font-semibold text-white border-white hover:bg-white hover:text-blue-500 px-4 py-2 ">
+              <Link to="/contactus">
+                Contact Us
+              </Link>
+            </button>
           </nav>
         </header>
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden h-screen bg-blue-500 text-white p-4">
+        <div className="lg:hidden h-screen bg-blue-500 text-white p-4">
           <div className="flex flex-col gap-4">
             <Link to="/services">Services</Link>
             <Link to="/about">About Us</Link>
