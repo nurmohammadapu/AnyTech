@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import icon1 from "../assets/icons/icon1.svg";
 import icon2 from "../assets/icons/icon2.svg";
 import icon3 from "../assets/icons/icon3.avif";
-import heroimg from '../assets/icons/hero.avif'
+
 
 
 const data = [

@@ -1,4 +1,4 @@
-import heroimg from '../assets/icons/hero.avif'
+import heroimg from '../assets/icons/three.jpg'
 
 
 export default function SecureSection() {

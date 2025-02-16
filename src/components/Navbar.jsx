@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import logo from "../assets/icons/diagram-lines/logo.svg";
 import { Link } from "react-router-dom";
-import navProfilePic from '../assets/icons/navPic.avif';
+import navProfilePic from '../assets/icons/two.jpg';
 import { BsChevronDown } from "react-icons/bs";
 
 const Navbar = () => {
